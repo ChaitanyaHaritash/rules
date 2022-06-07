@@ -2,7 +2,7 @@ rule APT_SideCopy_All{
     meta:
       description = "Rule to hunt SideCopy Payloads based on PDB paths"
       author = "Chaitanya Haritash/Sameer Patil"
-      reference = ""
+      reference = "https://www.seqrite.com/blog/seqrite-uncovers-second-wave-of-operation-sidecopy-targeting-indian-critical-infrastructure-psus/"
       date = "12-08-2021"
     strings:
         $mz = "MZ"
